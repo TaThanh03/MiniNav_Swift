@@ -14,6 +14,7 @@
 		13C8CABE219240E90072D783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C8CABC219240E90072D783 /* LaunchScreen.storyboard */; };
 		13C8CAC9219240E90072D783 /* MiniNav_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C8CAC8219240E90072D783 /* MiniNav_SwiftTests.swift */; };
 		13C8CAD4219240E90072D783 /* MiniNav_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C8CAD3219240E90072D783 /* MiniNav_SwiftUITests.swift */; };
+		13C8CAE221924E820072D783 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C8CAE121924E820072D783 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		13C8CACF219240E90072D783 /* MiniNav_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniNav_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C8CAD3219240E90072D783 /* MiniNav_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniNav_SwiftUITests.swift; sourceTree = "<group>"; };
 		13C8CAD5219240E90072D783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C8CAE121924E820072D783 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				13C8CABA219240E90072D783 /* Assets.xcassets */,
 				13C8CABC219240E90072D783 /* LaunchScreen.storyboard */,
 				13C8CABF219240E90072D783 /* Info.plist */,
+				13C8CAE121924E820072D783 /* MyView.swift */,
 			);
 			path = MiniNav_Swift;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C8CAE221924E820072D783 /* MyView.swift in Sources */,
 				13C8CAB6219240E80072D783 /* ViewController.swift in Sources */,
 				13C8CAB4219240E80072D783 /* AppDelegate.swift in Sources */,
 			);
